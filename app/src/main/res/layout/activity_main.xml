@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        app:elevation="10dp"
+        android:minHeight="250dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        app:cardCornerRadius="20dp">
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:src="@drawable/ic_00"/>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="#1F7FC8">
+        <RadioButton
+            android:padding="10dp"
+            android:layout_marginStart="10dp"
+            android:autoSizeTextType="uniform"
+            android:id="@+id/vA"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:text="variant A"
+            android:textSize="18sp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="#1F7FC8">
+        <RadioButton
+            android:padding="10dp"
+            android:layout_marginStart="10dp"
+            android:autoSizeTextType="uniform"
+            android:id="@+id/vB"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:text="variant B"
+            android:textSize="18sp"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="#1F7FC8">
+        <RadioButton
+            android:padding="10dp"
+            android:layout_marginStart="10dp"
+            android:autoSizeTextType="uniform"
+            android:id="@+id/vC"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:text="variant C"
+            android:textSize="18sp"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="#1F7FC8">
+        <RadioButton
+            android:padding="10dp"
+            android:layout_marginStart="10dp"
+            android:autoSizeTextType="uniform"
+            android:id="@+id/vD"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:text="variant D"
+            android:textSize="18sp"/>
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/next"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:backgroundTint="#26EA11"
+        android:background="@drawable/circular"
+        android:textSize="25sp"/>
+
+</LinearLayout>

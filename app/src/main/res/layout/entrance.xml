@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/start"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/circular"
+        android:backgroundTint="#027170"
+        android:text="Start"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/record"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/circular"
+        android:backgroundTint="#027170"
+        android:text="Records"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/info"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/circular"
+        android:backgroundTint="#027170"
+        android:text="Info"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Questions count"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/count1"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/circular"
+                android:backgroundTint="#FF0"
+                android:textColor="@color/teal_700"
+                android:textSize="24sp"
+                tools:text="10" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/count2"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/circular"
+                android:backgroundTint="#FF0"
+                android:textColor="@color/teal_700"
+                android:textSize="24sp"
+                tools:text="20" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/count3"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/circular"
+                android:backgroundTint="#FF0"
+                android:textColor="@color/teal_700"
+                android:textSize="24sp"
+                tools:text="30" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
